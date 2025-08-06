@@ -1,0 +1,133 @@
+/* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Background */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: url('https://images.unsplash.com/photo-1581091870622-78b45e51b7a5') no-repeat center center/cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* Logo */
+.logo {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+}
+.logo img {
+  height: 80px;
+  border-radius: 10px;
+}
+
+/* Container */
+.container {
+  text-align: center;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 40px;
+  border-radius: 20px;
+  backdrop-filter: blur(10px);
+  color: white;
+  box-shadow: 0 0 20px rgba(0, 255, 255, 0.5);
+}
+
+/* Title */
+.container h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  text-shadow: 0 0 10px cyan;
+}
+
+/* Paragraph */
+.container p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+/* Buttons */
+.button-container {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.btn {
+  text-decoration: none;
+  padding: 15px 30px;
+  font-size: 1.1rem;
+  color: white;
+  border-radius: 30px;
+  transition: 0.3s;
+}
+
+.admin-btn {
+  background: rgba(255, 0, 0, 0.5);
+  box-shadow: 0 0 10px red;
+}
+.admin-btn:hover {
+  background: rgba(255, 0, 0, 0.8);
+  box-shadow: 0 0 20px red;
+}
+
+.member-btn {
+  background: rgba(0, 255, 0, 0.5);
+  box-shadow: 0 0 10px lime;
+}
+.member-btn:hover {
+  background: rgba(0, 255, 0, 0.8);
+  box-shadow: 0 0 20px lime;
+}
+/* Login Page Background */
+.login-body {
+  background: url('https://images.unsplash.com/photo-1581091215367-59ab6b1f1f9d') no-repeat center center/cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Login Container */
+.login-container {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 40px;
+  border-radius: 20px;
+  backdrop-filter: blur(10px);
+  text-align: center;
+  color: white;
+  box-shadow: 0 0 20px rgba(0, 255, 255, 0.5);
+  width: 320px;
+}
+
+/* Login Title */
+.login-container h2 {
+  margin-bottom: 20px;
+  text-shadow: 0 0 10px cyan;
+}
+
+/* Inputs */
+.login-container input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+}
+
+/* Back Link */
+.back-link {
+  display: block;
+  margin-top: 15px;
+  color: white;
+  text-decoration: none;
+}
+.back-link:hover {
+  text-decoration: underline;
+}
