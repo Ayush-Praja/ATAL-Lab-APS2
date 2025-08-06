@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin Dashboard - ATAL Lab</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body class="dashboard-body">
+
+  <!-- Logo -->
+  <div class="logo">
+    <img src="APS2_logo.jpg" alt="APS2 Jabalpur Logo">
+  </div>
+
+  <!-- Dashboard -->
+  <div class="dashboard-container">
+    <h1>Admin Dashboard</h1>
+
+    <!-- Add Member Form -->
+    <div class="form-section">
+      <h2>Add New Member</h2>
+      <input type="text" id="memberName" placeholder="Member Name" required>
+      <input type="text" id="memberClass" placeholder="Class / Grade" required>
+      <button class="btn admin-btn" onclick="addMember()">Add Member</button>
+    </div>
+
+    <!-- Members Table -->
+    <div class="table-section">
+      <h2>Members List</h2>
+      <table id="membersTable">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Class</th>
+            <th>Member ID</th>
+            <th>Password</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- Dynamic rows will be added here -->
+        </tbody>
+      </table>
+    </div>
+
+    <a href="index.html" class="back-link">← Logout</a>
+  </div>
+
+</body>
+</html>
