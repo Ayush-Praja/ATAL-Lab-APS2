@@ -3,26 +3,59 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ATAL Lab - APS2 Jabalpur</title>
+  <title>APS2 ATAL Lab</title>
   <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
 </head>
 <body>
 
-  <!-- Logo -->
-  <div class="logo">
-    <img src="APS2_logo.jpg" alt="APS2 Jabalpur Logo">
-  </div>
-
-  <!-- Main Container -->
-  <div class="container">
-    <h1>ATAL Lab - APS2 Jabalpur</h1>
-    <p>Choose your login type</p>
-
-    <div class="button-container">
-      <a href="admin-login.html" class="btn admin-btn">Admin Login</a>
-      <a href="member-login.html" class="btn member-btn">Member Login</a>
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="nav-left">
+      <img src="APS2_logo.jpg" alt="APS2 Logo" class="logo">
+      <h2>APS2 Jabalpur - ATAL Lab</h2>
     </div>
-  </div>
+    <div class="nav-right">
+      <div class="dropdown">
+        <button class="login-btn">Login ▼</button>
+        <div class="dropdown-content">
+          <a href="admin-login.html">Admin Login</a>
+          <a href="member-login.html">Member Login</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-text">
+      <h1>Welcome to APS2 ATAL Tinkering Lab</h1>
+      <p>Innovate, Create, and Explore your ideas in our state-of-the-art ATAL Lab. 
+      Equipped with modern technology, we encourage students to think beyond books and experiment with real-world projects.</p>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="about">
+    <h2>About ATAL Lab</h2>
+    <p>Our ATAL Tinkering Lab at APS2 Jabalpur provides students with hands-on experience in electronics, robotics, 3D printing, programming, and more. 
+    The lab is a space where creativity meets innovation, helping young minds develop critical thinking and problem-solving skills.</p>
+  </section>
+
+  <!-- Gallery Section -->
+  <section class="gallery">
+    <h2>Our Lab in Action</h2>
+    <div class="gallery-images">
+      <img src="https://images.unsplash.com/photo-1581092334607-c7b3f4f0bfc1" alt="Lab Image 1">
+      <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d" alt="Lab Image 2">
+      <img src="https://images.unsplash.com/photo-1581091012184-5c6f3b4c5f07" alt="Lab Image 3">
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 APS2 Jabalpur ATAL Lab | Designed for Innovation</p>
+  </footer>
 
 </body>
 </html>
