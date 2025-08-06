@@ -131,3 +131,11 @@ body {
 .back-link:hover {
   text-decoration: underline;
 }
+/* Member Login Background */
+.member-login-body {
+  background: url('https://images.unsplash.com/photo-1504384308090-c894fdcc538d') no-repeat center center/cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
