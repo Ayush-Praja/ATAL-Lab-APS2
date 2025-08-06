@@ -1,86 +1,28 @@
-/* Basic Reset */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ATAL Lab - APS2 Jabalpur</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
-/* Body Background */
-body {
-  font-family: 'Segoe UI', sans-serif;
-  background: url('https://images.unsplash.com/photo-1581091870622-78b45e51b7a5') no-repeat center center/cover;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
+  <!-- Logo -->
+  <div class="logo">
+    <img src="APS2_logo.jpg" alt="APS2 Jabalpur Logo">
+  </div>
 
-/* Logo */
-.logo {
-  position: fixed;
-  top: 20px;
-  left: 20px;
-}
-.logo img {
-  height: 80px;
-  border-radius: 10px;
-}
+  <!-- Main Container -->
+  <div class="container">
+    <h1>ATAL Lab - APS2 Jabalpur</h1>
+    <p>Choose your login type</p>
 
-/* Container */
-.container {
-  text-align: center;
-  background: rgba(255, 255, 255, 0.1);
-  padding: 40px;
-  border-radius: 20px;
-  backdrop-filter: blur(10px);
-  color: white;
-  box-shadow: 0 0 20px rgba(0, 255, 255, 0.5);
-}
+    <div class="button-container">
+      <a href="admin-login.html" class="btn admin-btn">Admin Login</a>
+      <a href="member-login.html" class="btn member-btn">Member Login</a>
+    </div>
+  </div>
 
-/* Title */
-.container h1 {
-  font-size: 2.5rem;
-  margin-bottom: 10px;
-  text-shadow: 0 0 10px cyan;
-}
-
-/* Paragraph */
-.container p {
-  font-size: 1.2rem;
-  margin-bottom: 30px;
-}
-
-/* Buttons */
-.button-container {
-  display: flex;
-  gap: 20px;
-  justify-content: center;
-}
-
-.btn {
-  text-decoration: none;
-  padding: 15px 30px;
-  font-size: 1.1rem;
-  color: white;
-  border-radius: 30px;
-  transition: 0.3s;
-}
-
-.admin-btn {
-  background: rgba(255, 0, 0, 0.5);
-  box-shadow: 0 0 10px red;
-}
-.admin-btn:hover {
-  background: rgba(255, 0, 0, 0.8);
-  box-shadow: 0 0 20px red;
-}
-
-.member-btn {
-  background: rgba(0, 255, 0, 0.5);
-  box-shadow: 0 0 10px lime;
-}
-.member-btn:hover {
-  background: rgba(0, 255, 0, 0.8);
-  box-shadow: 0 0 20px lime;
-}
+</body>
+</html>
