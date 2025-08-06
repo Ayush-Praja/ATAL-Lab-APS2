@@ -1,8 +1,8 @@
-function adminLogin() {
-  const username = document.getElementById("adminUsername").value;
-  const password = document.getElementById("adminPassword").value;
+// Admin login handling
+function handleAdminLogin() {
+  const username = document.getElementById("admin-username").value;
+  const password = document.getElementById("admin-password").value;
 
-  // Fixed admin credentials
   if (username === "admin" && password === "atal123") {
     window.location.href = "admin-dashboard.html";
   } else {
