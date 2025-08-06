@@ -139,3 +139,62 @@ body {
   justify-content: center;
   align-items: center;
 }
+/* Dashboard Body */
+.dashboard-body {
+  background: url('https://images.unsplash.com/photo-1581092334607-c7b3f4f0bfc1') no-repeat center center/cover;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Dashboard Container */
+.dashboard-container {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 30px;
+  border-radius: 20px;
+  backdrop-filter: blur(10px);
+  color: white;
+  box-shadow: 0 0 20px rgba(0, 255, 255, 0.5);
+  width: 90%;
+  max-width: 800px;
+  text-align: center;
+}
+
+/* Form Section */
+.form-section {
+  margin-bottom: 30px;
+}
+.form-section input {
+  padding: 10px;
+  margin: 5px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+}
+
+/* Table Section */
+.table-section {
+  overflow-x: auto;
+}
+.table-section table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+.table-section th, .table-section td {
+  padding: 10px;
+  border: 1px solid white;
+}
+.table-section th {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+/* Info Card for Member Dashboard */
+.info-card {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  border-radius: 15px;
+  backdrop-filter: blur(10px);
+  margin-top: 20px;
+}
